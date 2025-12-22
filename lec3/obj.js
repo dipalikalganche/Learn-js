@@ -61,16 +61,28 @@
 //pass by reference(it points to the same location of memory )
 // let obj1 = { value: 10 };
 // let obj2 = obj1;
-// // Both obj1 and obj2 now point to the exact same object in memory
+// Both obj1 and obj2 now point to the exact same object in memory
 // obj2.value = 20;
 // console.log(obj1.value); // Outputs: 20 (obj1 is affected because it points to the same object)
 // console.log(obj2.value);
 
-let obj = {
-  name: "mohan",
-  age: 20,
-};
-let obj2 = obj;
-obj2.name = "rohan";
-console.log(obj);
+// let obj = {
+//   name: "mohan",
+//   age: 20,
+// };
+// let obj2 = obj;
+// obj2.name = "rohan";
+// console.log(obj);
 //in this it modifies mohans value into the rohan bcz it pointing the same object and it can be modified
+
+const obj = {
+  fname: "shahaji",
+  lname: "kokane",
+  age: 24,
+  fullname: () => {
+    console.log(`${fname} ${lname}`);
+    fullname();
+  },
+};
+
+obj.fullname();
