@@ -57,9 +57,9 @@
 //  undefined-->NaN
 
 // Number -> String
-let a = 10;
-let b = String(a);
-console.log(typeof b);
+// let a = 10;
+// let b = String(a);
+// console.log(typeof b);
 // "true"
 // true
 
@@ -98,3 +98,102 @@ console.log(typeof b);
 // console.log(10<true);
 // console.log(null>="");
 // console.log(NaN == NaN);
+
+//how loop will work?
+
+// for loop
+
+// post increment:i++
+// post decrenment : i--
+
+// for(let i = 0; i<10;i++){
+//     console.log(i);
+// }
+
+// while loop
+
+// let i = 0;
+// while(i<10){
+//     console.log(i);
+//     i++;
+// }
+
+// do while
+// let i= 0;
+// do{
+//     console.log(i);
+//     i++;
+// }while
+// (i<10);
+
+// if else condition
+// let age = 25;
+// if(age>=18){
+//     console.log("Eligible for vote");
+// }
+// else{
+//     console.log("Not eligible for vote");
+// }
+
+// kid young and old
+// let age = 78;
+// if(age<18){
+//     console.log("Kid");
+// }
+// else if(age>=60){
+//     console.log("Old");
+// }
+// else{
+//     console.log("young");
+// }
+
+// Logical Operator
+
+// logical And&& , ||
+
+// console.log(true&&true);
+// console.log(true&&false);
+// console.log(false&&false);
+// console.log(false&&true);
+
+// console.log(true||true);
+// console.log(true||false);
+// console.log(false||false);
+// console.log(false||true);
+
+// let a = "Rohit";
+// let b = "";
+// let c = a&&b;
+// console.log(c);
+
+// let a = 0;
+// let b = 20;
+
+// console.log(a&&b);
+// &&: If first value is false, it will return the first value itself
+// If first value is true, it will return second
+
+// || logical or
+
+// let a = 0;
+// let b = 20;
+
+//console.log(a || b);
+// &&: If first value is true, it will return the first value itself
+// If first value is false, it will return second
+
+// != not equal
+// console.log(5!=5);
+
+// AND: &(bitwise), | or (bitwise)
+//Compare each binary bit 1 & 1 = 1 Everything else = 0
+
+//&
+// let a = 5; // binary: 0101
+// let b = 3; // binary: 0011
+// console.log(a & b); // 1
+
+// | If any bit is 1 → result is 1
+let a = 5; // 0101
+let b = 3; // 0011
+console.log(a | b); //7

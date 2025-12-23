@@ -44,7 +44,7 @@
 // let s = function add() {
 //   console.log("hello cutee");
 // };
-// //console.log(s);
+//console.log(s);
 //s();
 
 //array is also mutable means we can change the first variable and ive that memory to the second one
@@ -76,13 +76,22 @@
 //in this it modifies mohans value into the rohan bcz it pointing the same object and it can be modified
 
 const obj = {
+  // referrance hold
   fname: "shahaji",
   lname: "kokane",
   age: 24,
-  fullname: () => {
-    console.log(`${fname} ${lname}`);
-    fullname();
-  },
 };
+let a = 10; // value hold
+let arr = [10, 39, 46, 57];
+function editObt(obj1, a1, array) {
+  console.log("first", array[0]);
+  array[0] = 50;
+}
 
-obj.fullname();
+console.log("before making any change ");
+// console.log(obj.fname);
+console.log(arr);
+editObt(obj, a, arr);
+console.log("after making change ");
+console.log(arr);
+// console.log(a);
