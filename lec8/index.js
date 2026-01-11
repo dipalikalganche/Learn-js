@@ -126,6 +126,6 @@ const user = {
 //console.log(user.address.city);
 
 //deep copy
-const user2 = structuredClone(user);
-user2.address.city = "nashik";
-console.log(user);
+// const user2 = structuredClone(user);
+// user2.address.city = "nashik";
+// console.log(user);

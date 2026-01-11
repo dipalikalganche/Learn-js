@@ -77,8 +77,8 @@ const now = new Date(2025, 12, 26, 7, 3, 126); //inconsistent date
 // Timestamp
 // const now = Date.now();
 // const dates = new Date(1759275037293);//this is for milisec convert into time
-// // console.log(dates.toString());
+//  console.log(dates.toString());
 
 // console.log(dates);
-// console.log(now);
-// // 1759272851288: TimeStamp
+// console.log(now);//UTC time exactaccoeding to difrent region
+// 1759272851288: TimeStamp

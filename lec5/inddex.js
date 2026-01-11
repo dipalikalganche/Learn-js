@@ -8,7 +8,7 @@
 // console.log(typeof b.toString);
 
 let a = new Number(20);
-//let b = new Number(20);
+// let b = new Number(20);
 
 console.log(a == b);
 
